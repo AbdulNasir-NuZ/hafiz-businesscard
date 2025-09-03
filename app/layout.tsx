@@ -29,7 +29,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Hafiz Business Card",
   description: "Digital business card for Abdelhafiz Mahfouz Ali",
-    generator: 'Nasir-Nuz'
+    generator: 'Nasir - Nuz'
 }
 
 export default function RootLayout({

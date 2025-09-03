@@ -35,7 +35,7 @@ export function ProfileForm({ profile, onProfileChange, onToggleVerified }: Prof
           name="avatarUrl"
           value={profile.avatarUrl}
           onChange={onProfileChange}
-          placeholder="https://example.com/avatar.jpg"
+          placeholder="/images/hafiz.png"
         />
       </div>
       <div className="flex items-center space-x-2 mt-2">

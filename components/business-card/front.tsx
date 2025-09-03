@@ -145,7 +145,7 @@ export function BusinessCardFront({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-md border border-slate-200 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-800"
+              className="rounded-md border border-blue-700 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-blue-100 dark:hover:bg-slate-800"
               aria-label="Open WhatsApp chat"
             >
               WhatsApp

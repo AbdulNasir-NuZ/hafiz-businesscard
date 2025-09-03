@@ -90,10 +90,7 @@ export function ProfileView({ profile }: ProfileViewProps) {
       <CardContent className="p-6">
         <div className={cn("flex flex-col items-center gap-4", themeSettings.font)}>
           <Avatar className="h-20 w-20">
-            <AvatarImage
-              src={profile.avatarUrl || "/placeholder.svg?height=160&width=160&query=business%20portrait"}
-              alt={person.name}
-            />
+            <AvatarImage src={profile.avatarUrl || "/images/hafiz.png"} alt={person.name} />
             <AvatarFallback>{person.name.charAt(0)}</AvatarFallback>
           </Avatar>
 
@@ -153,7 +150,11 @@ export function ProfileView({ profile }: ProfileViewProps) {
 
           <div className="w-full mt-6 grid gap-2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-              <Button asChild variant="default" className="w-full">
+              <Button
+                asChild
+                variant="default"
+                className="w-full bg-[#0a66c2] hover:bg-[#084e99] text-white border-[#0a66c2]"
+              >
                 <a href={person.linkedIn} target="_blank" rel="noopener noreferrer">
                   Connect on LinkedIn
                 </a>
@@ -174,7 +175,7 @@ export function ProfileView({ profile }: ProfileViewProps) {
                   Book a meeting
                 </a>
               </Button>
-              <Button onClick={handleSaveContact} className="w-full">
+              <Button onClick={handleSaveContact} className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
                 Save Contact
               </Button>
             </div>
