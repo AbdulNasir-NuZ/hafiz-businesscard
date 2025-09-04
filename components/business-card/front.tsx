@@ -112,7 +112,7 @@ export function BusinessCardFront({
           </a>
           <a
             href={website}
-            target="_blank"
+            target="https://globexlinkb2b.com/"
             rel="noopener noreferrer"
             className="text-sm text-slate-700 dark:text-slate-200 hover:underline truncate"
             aria-label="Open website"
@@ -132,7 +132,7 @@ export function BusinessCardFront({
           {linkedinUrl && (
             <a
               href={linkedinUrl}
-              target="_blank"
+              target="https://www.linkedin.com/in/abdelhafiz-mahfouz-ali-terab-423b25149/"
               rel="noopener noreferrer"
               className="rounded-md border border-slate-200 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-800"
               aria-label="Connect on LinkedIn"
@@ -143,7 +143,7 @@ export function BusinessCardFront({
           {whatsappUrl && (
             <a
               href={whatsappUrl}
-              target="_blank"
+              target="+90 539 910 41 87"
               rel="noopener noreferrer"
               className="rounded-md border border-blue-700 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-blue-100 dark:hover:bg-slate-800"
               aria-label="Open WhatsApp chat"
@@ -154,7 +154,7 @@ export function BusinessCardFront({
           {meetingUrl && (
             <a
               href={meetingUrl}
-              target="_blank"
+              target="https://calendly.com/globexlinkb2b/30min"
               rel="noopener noreferrer"
               className="rounded-md border border-slate-200 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-800"
               aria-label="Book a meeting"
